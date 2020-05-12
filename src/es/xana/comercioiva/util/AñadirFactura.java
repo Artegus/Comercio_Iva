@@ -1,0 +1,44 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package es.xana.comercioiva.util;
+
+import es.xana.comercioiva.entities.ProductoIva16;
+import es.xana.comercioiva.entities.ProductoIva4;
+import es.xana.comercioiva.entities.ProductoIva7;
+import java.util.ArrayList;
+
+/**
+ *
+ * @author gabri
+ */
+public class AñadirFactura {
+    
+    
+    public static void insertarProducto(int opcion, String nombre, double precio, ArrayList list){
+        
+        ProductoIva4 ivaCuatro = null;
+        ProductoIva7 ivaSiete = null;
+        ProductoIva16 ivaDieciseis = null;
+        
+        switch(opcion){
+            case 1: 
+                ivaDieciseis = new ProductoIva16(nombre, precio);
+                list.add(ivaDieciseis);
+                break;
+            case 2:
+                ivaSiete = new ProductoIva7(nombre, precio);
+                list.add(ivaSiete);
+                break;
+            case 3:
+                ivaCuatro = new ProductoIva4(nombre, precio);
+                list.add(ivaCuatro);
+                break;
+            default:
+                System.out.println("Incorrecto");
+        }
+    }
+    
+}
