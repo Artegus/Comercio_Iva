@@ -1,15 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package es.xana.comercioiva.entities;
 
-/**
- *
- * @author gabri
- */
-public abstract class Articulo implements MetodosIva{
+public abstract class Articulo {
     
     //Atributos
     
@@ -33,11 +25,10 @@ public abstract class Articulo implements MetodosIva{
         return precio;
     }
 
-    @Override
+    
     public abstract double getPrecioFinal();
 
     
-    @Override
     public abstract double getParteIva();
     
 

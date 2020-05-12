@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package es.xana.comercioiva.util;
 
 import es.xana.comercioiva.entities.ProductoIva16;
@@ -10,10 +6,6 @@ import es.xana.comercioiva.entities.ProductoIva4;
 import es.xana.comercioiva.entities.ProductoIva7;
 import java.util.ArrayList;
 
-/**
- *
- * @author gabri
- */
 public class AñadirFactura {
     
     

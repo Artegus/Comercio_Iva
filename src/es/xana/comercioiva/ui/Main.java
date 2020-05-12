@@ -2,12 +2,8 @@
 package es.xana.comercioiva.ui;
 
 import es.xana.comercioiva.entities.Articulo;
-import es.xana.comercioiva.entities.ProductoIva16;
-import es.xana.comercioiva.entities.ProductoIva4;
-import es.xana.comercioiva.entities.ProductoIva7;
 import es.xana.comercioiva.entities.Factura;
 import static es.xana.comercioiva.util.AñadirFactura.insertarProducto;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
