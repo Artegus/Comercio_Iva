@@ -8,11 +8,11 @@ los métodos necesarios para poder modificar y acceder al precio y solo poder ac
 >
 >Posteriormente, se definen tres clases de nombres ProductoIva4, ProductoIva7 y ProductoIva16 que derivan de Artículo, las cuales tendrán una constante llamada TIPO, con el valor del IVA correspondiente (4%, 7%, 16%).
 >
->Estas clases incorporarán un métodio llamadio getParteIva() que devolverá la cantidad que debe ser abonadia de IVA por un artículo. Estas clases también deben redefinir el método getPrecioFinal(), dee forma que éste devuelva el precio más el IVA.
+>Estas clases incorporarán un métodio llamadio getParteIva() que devolverá la cantidad que debe ser abonada de IVA por un artículo. Estas clases también deben redefinir el método getPrecioFinal(), de forma que éste devuelva el precio más el IVA.
 >
 >Escribir una clase principal que realice las siguientes acciones:
 >
->-   a) Crear 3 artculos uno de cada tipo.
+>-   a) Crear 3 articulos uno de cada tipo.
 >
 >-    b) Introducirlos en un arraylist.
 >
